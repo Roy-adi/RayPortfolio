@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/RayPortfolio/static/css/main.4a79c814.css",
+    "main.js": "/RayPortfolio/static/js/main.69a3c519.js",
+    "static/js/787.603009bf.chunk.js": "/RayPortfolio/static/js/787.603009bf.chunk.js",
+    "static/media/s2.png": "/RayPortfolio/static/media/s2.035463061549ac8b6040.png",
+    "static/media/f1.png": "/RayPortfolio/static/media/f1.988a537db31642d0c9d0.png",
+    "static/media/s4.png": "/RayPortfolio/static/media/s4.c967ade849b98efb5c4a.png",
+    "static/media/f5.png": "/RayPortfolio/static/media/f5.1b6f883f0fcb71948fa1.png",
+    "static/media/fs1.png": "/RayPortfolio/static/media/fs1.5b77411eb2c476918e11.png",
+    "static/media/f2.png": "/RayPortfolio/static/media/f2.67108c9f05b43ff028e7.png",
+    "static/media/f4.png": "/RayPortfolio/static/media/f4.4356fe50c80bdb79d990.png",
+    "static/media/AdityaRoyResume.pdf": "/RayPortfolio/static/media/AdityaRoyResume.be2011e492937a2b8a6e.pdf",
+    "static/media/f6.png": "/RayPortfolio/static/media/f6.65e77985ca33d2f187b5.png",
+    "static/media/f3.png": "/RayPortfolio/static/media/f3.af2b6064f325c0d1eea1.png",
+    "static/media/fs2.png": "/RayPortfolio/static/media/fs2.83021c1444789ca02881.png",
+    "static/media/back2.jpg": "/RayPortfolio/static/media/back2.74b9db733735005d474a.jpg",
+    "static/media/s1.png": "/RayPortfolio/static/media/s1.808553d72aae8e096739.png",
+    "static/media/logo.jpg": "/RayPortfolio/static/media/logo.17e2cf0e54ad805a734b.jpg",
+    "static/media/s3.png": "/RayPortfolio/static/media/s3.af8aa5474315402c3c66.png",
+    "index.html": "/RayPortfolio/index.html",
+    "main.4a79c814.css.map": "/RayPortfolio/static/css/main.4a79c814.css.map",
+    "main.69a3c519.js.map": "/RayPortfolio/static/js/main.69a3c519.js.map",
+    "787.603009bf.chunk.js.map": "/RayPortfolio/static/js/787.603009bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a79c814.css",
+    "static/js/main.69a3c519.js"
+  ]
+}
