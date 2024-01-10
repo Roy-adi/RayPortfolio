@@ -12,7 +12,7 @@ const Card = () => {
         <li className="card-get_list__item"><strong>React.js : </strong> Crafting dynamic and responsive user interfaces.</li>
         <li className="card-get_list__item"><strong>NEXT.JS : </strong> Building scalable & performant React WEb-APP with SSR .</li>
         <li className="card-get_list__item"><strong>JavaScript :</strong> client-side logic to enhance website functionality</li>
-        <li className="card-get_list__item"><strong>HTML5, CSS3, Bootstrap : </strong> Designing elegant & Responsive design </li>
+        <li className="card-get_list__item"><strong>HTML5, CSS, Bootstrap : </strong> Designing elegant & Responsive design </li>
         <li className="card-get_list__item"><strong>Redux :</strong>Implementing efficient state management.  </li>
        
       </ul>
