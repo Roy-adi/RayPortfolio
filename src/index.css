@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+	--black: oklch(17.7% 0.105 262.48);
+	--purple: oklch(60% 0.37 294.7);
+	--orange: oklch(60% 0.37 64.65);
+	--yellow: oklch(60% 0.37 109.08);
+	--blue: oklch(60% 0.37 237.06);
+	--black-alpha-50: color-mix(in oklch, var(--black), transparent);
+}
+
+@property --gradient-angle {
+	inherits: false;
+	initial-value: 0deg;
+	syntax: "<angle>";
+}
+
+@keyframes spin {
+	to {
+		--gradient-angle: 360deg;
+	}
+}

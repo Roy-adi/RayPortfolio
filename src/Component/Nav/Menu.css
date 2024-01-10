@@ -1,0 +1,127 @@
+/* MOBILE DISPLAY */
+.navy {
+    z-index: 9999;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+.container0 {
+    display: inline-block;
+    height: 60px;
+    width: 100%;
+    background: transparent;
+}
+
+.inav {
+    padding: 12px;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #d7b94c;
+    border-radius: 25px;
+}
+
+.c1,
+.c2,
+.c3 {
+    width: 26px;
+    height: 2px;
+    background: #d7b94c;
+    border-radius: 2px;
+    transition: transform .3s ease-out, width .3s ease-in;
+    transform: translateY(0) rotate(0);
+}
+
+.close-c1 {
+    transform: translateY(10px) rotate(45deg);
+    transition: transform .3s ease-out;
+}
+
+.close-c2 {
+    width: 0;
+    transition: width .3s ease-in;
+}
+
+.close-c3 {
+    transform: translateY(-10px) rotate(-45deg);
+    transition: transform .3s ease-out;
+}
+
+.navq {
+    z-index: 2;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    display: none;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, .1);
+    position: relative;
+    top: -4px;
+}
+
+.open {
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transform: translateY(-50%);
+    animation: 300ms show ease-out forwards;
+}
+
+ul a {
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    padding: 13px;
+    font-size: 18px;
+    border-top: 1px #BDC3C7 solid;
+    text-decoration: none;
+}
+
+.menu-link{
+    color: #fff !important;
+    text-transform: uppercase;
+}
+
+.menu-link:hover{
+    background-color: #DADFE1;
+    color: #607D8B !important;
+}
+
+ul a:hover {
+    background-color: #DADFE1;
+    color: #607D8B;
+}
+
+/* DESKTOP MODE */
+@media (min-width: 500px) {
+    .navq {
+        display: flex;
+        justify-content: center;
+    }
+
+    .open {
+        flex-direction: row;
+    }
+
+    ul a {
+        border-top: 0;
+    }
+
+    .container0 {
+        display: none;
+    }
+}
+
+/* ANIMATION */
+@keyframes show {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

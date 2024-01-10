@@ -1,0 +1,57 @@
+/* ProjectTab.css */
+
+.taby-container {
+    align-items: center;
+    padding: 5% 0;
+  }
+
+  .taby-container .project-title{
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    padding: 2% 0;
+    font-weight: 600;
+    font-family: 'Cinzel', serif;
+  }
+
+  .taby-tabs{
+    width: 70%;
+    margin-left: 15%;
+    border: 1px solid #fff;
+    box-shadow: 15px 15px 30px #bf66ff, -20px -15px 35px #66edff;
+    animation: shadow-box 2s linear infinite;
+    border-radius: 12px;
+  }
+
+  .nav-link{
+   color: #fff;
+  }
+
+  .nav-tabs .nav-link.active{
+    background: linear-gradient(90deg, #66edff, #bf66ff);
+  }
+
+  .nav-link:hover{
+    color: aquamarine;
+  }
+  
+  .taby-tabs {
+    button {
+      font-size: 14px; /* Adjust the font size as needed */
+      padding: 8px 16px; /* Adjust the padding as needed */
+      width: 70%;
+      margin-left: 15%;
+    }
+  
+   #project-tab {
+     width: 0 !important;
+  }
+
+
+  
+    .nav-item.show .nav-link, .nav-link.active {
+      background-color: #007bff; /* Change the background color for active tab as needed */
+      color: #fff; /* Change the text color for active tab as needed */
+    }
+  }
+  

@@ -1,0 +1,42 @@
+
+.heading {
+    font-size: clamp(4rem, 9vw, 5.5rem);
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    transform-origin: 50% 50%;
+    padding-top: 0.5em;
+  }
+  .heading > div {
+    transform-origin: 50% 100%;
+    overflow: hidden;
+  }
+
+  .text{
+    display: grid;
+    place-items: center;
+    font-size: 35px;
+    /* background-color: #00000052; */
+    border: 1px solid #fff;
+    box-shadow: 15px 15px 30px #bf66ff, -20px -15px 35px #66edff;
+    animation: shadow-box 2s linear infinite;
+    border-radius: 15px;
+}
+  
+
+  .service-container{
+    /* background: #000; */
+    width: 100%;
+    height: auto;
+  }
+
+
+.service-container .skill-title{
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  padding: 2% 0;
+  font-weight: 600;
+  font-family: 'Cinzel', serif;
+}
+  

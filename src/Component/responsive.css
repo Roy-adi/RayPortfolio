@@ -1,0 +1,18 @@
+@media (max-width: 767.98px){
+ 
+   .hero-left{
+    display: none;
+   }
+
+   .card-box{
+    width: 100%;
+    
+   }
+
+ #project-tab {
+      width: 85% !important;
+      border-radius: 10px !important;
+      margin-left: 8px !important;
+  }
+
+}
