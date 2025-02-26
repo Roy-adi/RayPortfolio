@@ -25,19 +25,15 @@ const About = () => {
       <div className="card-main">
         <div className={`card-section ${activeSection === '#about' ? 'is-active' : ''}`} id="about">
           <div className="card-content">
-            <div className="card-subtitle">ABOUT</div>
-            <p className="card-desc">As a fresher B.Tech Graduate with a passion for Software Development and IT, my primary skills include Java, JavaScript, ReactJS, and MySQL. I am eager to put my knowledge into practice and work with a team of professionals to develop high-quality software solutions. I am a quick learner with a strong work ethic and a positive attitude, always striving to improve my skills and take on new challenges. I am currently seeking job opportunities in the software development and IT field, where I can contribute to a company's success while growing professionally.</p>
+            <div className="card-subtitle">ABOUT ME</div>
+            <p className="card-desc">I am a B.Tech graduate and a Full-Stack Developer with a passion for Software Development and IT, specializing in JavaScript, ReactJS, Node.js, Express.js, and MongoDB. As a quick learner with a strong work ethic, I thrive in collaborative environments, building high-quality software solutions. Always eager to enhance my skills and take on new challenges, I am committed to continuous learning and innovation in the tech world..</p>
           </div>
         </div>
         <div className={`card-section ${activeSection === '#experience' ? 'is-active' : ''}`} id="experience">
           <div className="card-content">
             <div className="card-subtitle">WORK EXPERIENCE</div>
             {/* ... Experience items */}
-            <p  className='card-desc'> As a Front End Developer work in Startup softwear company <br/> Technology work with : HTML, Bootstrap, JavaScript , ReactJS , <br/> Pioneered user-centric interfaces for e-commerce and booking web apps,
-            seamlessly merging design aesthetics with flawless functionality. Utilized
-            HTML, CSS, JavaScript & React to craft engaging web solutions. Adeptly
-            collaborated across teams, consistently exceeding project expectations and
-            timelines </p>
+            <p  className='card-desc'> I am currently working at HTSM Technologies Pvt. Ltd. as a MERN Stack Developer, with 1 year and 10 months of experience. During my time here, I have successfully completed 6 projects, including 4 from scratch. Notably, 2 of these projects were for the West Bengal Government's Livestock Department. My expertise lies in React.js, where I focus on building efficient and scalable web applications. </p>
           </div>
         </div>
         <div className={`card-section ${activeSection === '#contact' ? 'is-active' : ''}`} id="contact">

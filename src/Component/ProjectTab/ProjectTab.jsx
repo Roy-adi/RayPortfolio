@@ -19,11 +19,11 @@ function ProjectTab() {
         <Tab eventKey="home" id='project-tab' title="Small Projects" >
           <SmallProjects/>
         </Tab>
-        <Tab eventKey="profile" id='project-tab' title="Front End">
-          <FrontEnd />
-        </Tab>
-        <Tab eventKey="longer-tab" id='project-tab' title="Full Stack">
+        <Tab  eventKey="profile" id='project-tab' title="Full Stack">
           <FullStack/>
+        </Tab>
+        <Tab eventKey="longer-tab" id='project-tab' title="Front End">
+          <FrontEnd />
         </Tab>
       </Tabs>
     </div>

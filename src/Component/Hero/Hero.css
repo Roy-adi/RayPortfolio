@@ -61,6 +61,25 @@
     border-radius: 100px;
 }
 
+.hero-heading {
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+  }
 
+.gradient-text {
+    /* background: linear-gradient(90deg, #66edff, #bf66ff)!important; */
+    -webkit-background-clip: text;
+    font-weight: bold;
+    font-size: 2rem;
+    display: inline-block;
+    animation: glow 1.5s infinite alternate;
+    z-index: 9999!important;
+    color: linear-gradient(90deg, #66edff, #bf66ff);
+  }
+
+
+  
 
     

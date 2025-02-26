@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.css'
 
-import cv from '../../image/AdityaRoyResume.pdf'
+import cv from '../../image/cv.pdf'
 import { Button } from 'bootstrap';
 const Card = () => {
   return (
